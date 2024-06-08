@@ -1,0 +1,39 @@
+.canvas {
+  border: 2px solid black;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top > block {
+  margin: 10px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+
+.black,
+input,
+select,
+button {
+  width: 80%;
+}
+
+.bottom > button {
+  margin: 10px;
+}
+
+header {
+  color: beige;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(90deg, #e66465, #9198e5);
+}
